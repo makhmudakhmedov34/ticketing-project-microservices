@@ -14,6 +14,7 @@
         <module>project-service</module>
         <module>task-service</module>
         <module>app-client-management</module>
+        <module>discovery-service</module>
     </modules>
 
     <parent>
@@ -84,6 +85,12 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-openfeign</artifactId>
+                <version>${spring-cloud.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
                 <version>${spring-cloud.version}</version>
             </dependency>
 
