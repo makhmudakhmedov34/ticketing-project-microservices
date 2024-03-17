@@ -5,6 +5,9 @@
 
     <packaging>pom</packaging>
 
+
+    
+
     <modules>
         <module>app-domain-model</module>
         <module>user-service</module>
@@ -104,6 +107,7 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
 
     <build>
         <plugins>
