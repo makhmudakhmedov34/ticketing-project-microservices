@@ -7,9 +7,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/makhmudakhmedov34/ticketing-project-microservice-config
+          uri:
           default-label:  master
-          username: makhmudakhmedov34
+          username:
           password:
     fail-fast: true
 
